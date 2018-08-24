@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+#headerImg{
+  margin: 0 auto;
+  height: 150px;
+}
+
+body{
+  background-color: #f6f1e1;
+  width:1000px;
+  margin:20px auto;
+}
+
+.menubar{
+border:none;
+border:0px;
+margin:0px;
+padding:0px;
+font: 67.5% "Lucida Sans Unicode", sans-serif;
+font-size:16px;
+font-weight:bold;
+}
+
+.menubar ul{
+background: #d06e6e ;
+height:50px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.menubar li{
+float:left;
+padding:0px;
+}
+
+.menubar li a{
+background: #d06e6e;
+color:white ;
+display:block;
+font-weight:normal;
+line-height:50px;
+margin:0px;
+padding:0px 25px;
+text-align:center;
+text-decoration:none;
+}
+
+.menubar li a:hover, .menubar ul li:hover a{
+background: #b85858;
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.menubar li ul{
+background:#b85858;
+display:none; 
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:200px;
+z-index:200;
+}
+
+.menubar li:hover ul{
+display:block; 
+}
+
+.menubar li li {
+background: #b85858;
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+
+.menubar li:hover li a{
+background:none;
+}
+
+.menubar li ul a{
+display:block;
+height:50px;
+font-size:14px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+
+.menubar li ul a:hover, .menubar li ul li:hover a{
+background: #d87878;
+border:0px;
+color:#ffffff;
+text-decoration:none;
+}
+
+.menubar p{
+clear:left;
+}
+
+	/* banner view*/
+.banner {
+  position: relative;
+ width: 1000px;
+ height: 600px;
+ margin:0 auto;
+ padding:0;
+ overflow: hidden;
+}
+
+.banner ul {
+  position: absolute;
+  margin: 0px;
+  padding:0;
+  list-style: none;
+}
+
+.banner ul li {
+  float: left;
+  width: 1000px;
+  height: 600px;
+  margin:0;
+  padding:0;
+}
+
+
+footer{
+  background-color: #D8BFC4;
+  text-align: center;
+
+}
+
